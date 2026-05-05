@@ -16,7 +16,7 @@ const port = process.env.PORT || 4000
 
 connectDB()
 
-const allowedOrigins = ['https://mern-auth-786-ak.onrender.com']
+const allowedOrigins = ['https://mern-auth-786-ak.onrender.com', 'http://localhost:5173']
 
 app.use(express.json())
 app.use(cookieParser())
